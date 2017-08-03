@@ -8,7 +8,7 @@
 <style>
 body,h1,h2,h3,h4,h5 {font-family: "VT323", sans-serif}
 </style>
-<body class="w3-light-grey">
+<body>
 
 <!-- w3-content defines a container for fixed size centered content, 
 and is wrapped around the whole page content, except for the footer in this example -->
@@ -30,7 +30,7 @@ and is wrapped around the whole page content, except for the footer in this exam
     <p>&lt;Monday&gt;</p>
     <div class="w3-container">
       <h3><b>Music:</b></h3>
-      <h5>I Got It Made - Special Ed (1989) <span class="w3-opacity">July 31, 2017</span></h5>
+      <h5>I Got It Made - Special Ed (1989) <span class="w3-opacity">[July 31, 2017]</span></h5>
     </div>
 
     <div class="w3-container">
@@ -54,7 +54,7 @@ and is wrapped around the whole page content, except for the footer in this exam
     <p>&lt;Tuesday&gt;</p>
     <div class="w3-container">
       <h3><b>Two for:</b></h3>
-      <h5>Comfortability and Adaptability: the Genesis of Revelation <span class="w3-opacity">August 1, 2017</span></h5>
+      <h5>Comfortability and Adaptability: the Genesis of Revelation <span class="w3-opacity">[August 1, 2017]</span></h5>
     </div>
 
     <div class="w3-container">
@@ -83,7 +83,7 @@ and is wrapped around the whole page content, except for the footer in this exam
     <p>&lt;Wednesday&gt;</p>
     <div class="w3-container">
       <h3><b>Word up:</b></h3>
-      <h5>Mother <span class="w3-opacity">August 2, 2017</span></h5>
+      <h5>Mother <span class="w3-opacity">[August 2, 2017]</span></h5>
     </div>
 
     <div class="w3-container">
@@ -110,7 +110,7 @@ and is wrapped around the whole page content, except for the footer in this exam
       <p>&lt;Thursday&gt;</p>
     <div class="w3-container">
       <h3><b>Thirsty:</b></h3>
-      <h5>I am really looking forward to this launch!<span class="w3-opacity">August 3, 2017</span></h5>
+      <h5>I am really looking forward to this launch! <span class="w3-opacity">[August 3, 2017]</span></h5>
     </div>
 
     <div class="w3-container">
@@ -134,7 +134,6 @@ and is wrapped around the whole page content, except for the footer in this exam
 <div class="w3-col l4">
   <!-- About Card -->
   <div class="w3-card-2 w3-margin w3-margin-top">
-  <img src="/w3images/avatar_g.jpg" style="width:100%">
     <div class="w3-container w3-white">
       <h4><b>Elvin J. Galarza</b></h4>
       <p>Hola and welcome to my personal blog. Here is where I unravel my thoughts, aspirations, and memes all into one big, somewhat organized piece of scrap on le internet. Each day I have something different to say. And each day I speak not to impress or entertain but to de-stress in a healthy way, sitting 1.5 feet away from a big screen. Aside from the risks of impaired vision and carpal tunnel, I tend to have spontaneous thinking... so approach this blog with care, don't facecheck, ss, and keep all finger(s) on your scrolling device as you journey through the archives of my mind. Enjoy!</p>
@@ -149,7 +148,6 @@ and is wrapped around the whole page content, except for the footer in this exam
         <p>Warning: There may be a hiatus in postings, but each day has a specification and it will be followed to the best of my ability!</p>   
     </div>
     <ul class="w3-ul w3-hoverable w3-white">
-      </li>
       <li class="w3-padding-16">
         <span class="w3-large">Movie/Music Monday</span><br>
         <span>Who needs Rotten Tomatoes or Rap Genius when you have me? Do you even drift, bro? Keep calm and read on. Top to the kek.</span>
@@ -197,6 +195,20 @@ and is wrapped around the whole page content, except for the footer in this exam
   <button class="w3-button w3-black w3-disabled w3-padding-large w3-margin-bottom">Previous</button>
   <button class="w3-button w3-black w3-padding-large w3-margin-bottom">Next »</button>
 </footer>
+
+
+<script type="text/javascript">
+var currentTime = new Date().getHours();
+if (7 <= currentTime && currentTime < 20) {
+    if (document.body) {
+        document.body.background = "http://itsnotch.com/tumblr/images/daytime_bg.jpg";
+    }
+}
+else {
+    if (document.body) {
+        document.body.background = "http://itsnotch.com/tumblr/images/nighttime_bg.jpg";
+    }
+}
 
 </body>
 </html>
