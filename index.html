@@ -7,6 +7,7 @@
 <link href="https://fonts.googleapis.com/css?family=VT323" rel="stylesheet">
 <style>
 body,h1,h2,h3,h4,h5 {font-family: "VT323", sans-serif}
+body{background-image: url(0.jpg); background-repeat: no-repeat; background-size: 100% 100%}
 </style>
 <body>
 
@@ -191,24 +192,46 @@ and is wrapped around the whole page content, except for the footer in this exam
 </div>
 
 <!-- Footer -->
-<footer class="w3-container w3-dark-grey w3-padding-32 w3-margin-top">
-  <button class="w3-button w3-black w3-disabled w3-padding-large w3-margin-bottom">Previous</button>
-  <button class="w3-button w3-black w3-padding-large w3-margin-bottom">Next »</button>
+<footer class="w3-container w3-padding-32 w3-margin-top">
 </footer>
 
-
+<!--
 <script type="text/javascript">
-var currentTime = new Date().getHours();
-if (7 <= currentTime && currentTime < 20) {
-    if (document.body) {
-        document.body.background = "http://itsnotch.com/tumblr/images/daytime_bg.jpg";
-    }
-}
-else {
-    if (document.body) {
-        document.body.background = "http://itsnotch.com/tumblr/images/nighttime_bg.jpg";
-    }
-}
+var now = new Date();
+var hours = now.getHours();
 
+//18-19 night
+if (hours > 17 && hours < 20){
+document.body.style.backgroundImage = "url('7.png')";
+document.body.style.backgroundRepeat = "no-repeat"; 
+}
+//20-21 night
+else if (hours > 19 && hours < 22){
+document.body.style.backgroundImage = "url('6.png')";
+document.body.style.backgroundRepeat = "no-repeat"; 
+}
+//22-4 night
+else if (hours > 21 || hours < 5){
+document.body.style.backgroundImage = "url('5.png')";
+document.body.style.backgroundRepeat = "no-repeat";}
+//9-17 day
+else if (hours > 8 && hours < 18){
+document.body.style.backgroundImage = "url('4.png')";
+document.body.style.backgroundRepeat = "no-repeat";}
+//7-8 day
+else if (hours > 6 && hours < 9){
+document.body.style.backgroundImage = "url('3.png')";
+document.body.style.backgroundRepeat = "no-repeat";
+//5-6 day
+else if (hours > 4 && hours < 7){
+document.body.style.backgroundImage = "url('2.png')";
+document.body.style.backgroundRepeat = "no-repeat";}
+else {
+document.body.style.backgroundImage = "url('1.png')";
+document.body.style.backgroundRepeat = "no-repeat";}
+</script>
+-->   
+    
 </body>
+
 </html>
