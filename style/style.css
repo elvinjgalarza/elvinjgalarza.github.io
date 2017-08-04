@@ -1,4 +1,37 @@
-/* backgrounds */
-.day { background: url('http://imgs.mi9.com/uploads/photography/4480/white-clouds-and-blue-sky_1600x1200_78556.jpg'); }
-.sunset { background: url('http://www.naturewallpaper.eu/desktopwallpapers/sky/1366x768/after-sunset-sky-1366x768.jpg'); }
-.night { background: url('http://images2.layoutsparks.com/1/159946/moon-girl-night-sky.jpg'); }
+
+/* Custom */
+.w3-longhorn-l5 {color:#000 !important; background-color:#fff4ec !important}
+.w3-longhorn-l4 {color:#000 !important; background-color:#ffdcbf !important}
+.w3-longhorn-l3 {color:#000 !important; background-color:#ffb87e !important}
+.w3-longhorn-l2 {color:#000 !important; background-color:#ff953e !important}
+.w3-longhorn-l1 {color:#fff !important; background-color:#fd7200 !important}
+.w3-longhorn-d1 {color:#fff !important; background-color:#aa4c00 !important}
+.w3-longhorn-d2 {color:#fff !important; background-color:#974400 !important}
+.w3-longhorn-d3 {color:#fff !important; background-color:#843b00 !important}
+.w3-longhorn-d4 {color:#fff !important; background-color:#713300 !important}
+.w3-longhorn-d5 {color:#fff !important; background-color:#5e2a00 !important}
+
+.w3-longhorn-light {color:#000 !important; background-color:#fff4ec !important}
+.w3-longhorn-dark {color:#fff !important; background-color:#5e2a00 !important}
+.w3-longhorn-action {color:#fff !important; background-color:#5e2a00 !important}
+
+.w3-longhorn {color:#fff !important; background-color:#bf5700 !important}
+.w3-text-longhorn {color:#bf5700 !important}
+.w3-border-longhorn {border-color:#bf5700 !important}
+
+.w3-hover-longhorn:hover {color:#fff !important; background-color:#bf5700 !important}
+.w3-hover-text-longhorn {color:#bf5700 !important}
+.w3-hover-border-longhorn:hover {border-color:#bf5700 !important}
+
+
+.w3-hover-bg-facebook:hover {color:#fff !important; background-color:#3b5998 !important}
+.w3-hover-bg-instagram:hover {color:#fff !important; background-color:#c32aa3 !important}
+.w3-hover-bg-twitter:hover {color:#fff !important; background-color:#00aced !important}
+.w3-hover-bg-linkedin:hover {color:#fff !important; background-color:#007bb6 !important}
+.w3-hover-bg-soundcloud:hover {color:#fff !important; background-color:#0066CC !important}
+
+.w3-hover-facebook:hover {color:#fff !important; color:#3b5998 !important}
+.w3-hover-instagram:hover {color:#fff !important; color:#c32aa3 !important}
+.w3-hover-twitter:hover {color:#fff !important; color:#00aced !important}
+.w3-hover-linkedin:hover {color:#fff !important; color:#007bb6 !important}
+.w3-hover-soundcloud:hover {color:#fff !important; color:#ff5500 !important}
