@@ -24,14 +24,18 @@
         background-repeat: no-repeat;
         background-size: 100% 100%
     }
-    a:link, a:visited{
+
+    a:link,
+    a:visited {
         color: (internal value);
         text-decoration: none;
         cursor: auto;
     }
-    a:link:active, a:visited:active {
-    color: (internal value);
-}
+
+    a:link:active,
+    a:visited:active {
+        color: (internal value);
+    }
 
 </style>
 
@@ -39,19 +43,19 @@
 
     <!-- w3-content defines a container for fixed size centered content,
 and is wrapped around the whole page content, except for the footer on this website -->
-    <div class="w3-content" style="max-width:1400px">
+    <div class="w3-content w3-mobile" style="max-width:1400px">
 
         <!-- Header -->
-        <header class="w3-container w3-center w3-padding-32">
-            <h1><a href = "http://elvinjgalarza.me"><b>A BLOG brought to you by Elvin</b></h1></a>
-            <p>Drem yol lok, greetings!</p>
+        <header class="w3-container w3-center w3-padding-32 w3-animate-zoom">
+            <h1><a href="http://elvinjgalarza.me"><b>A BLOG brought to you by Elvin</b></h1></a>
+                <p>Drem yol lok, greetings!</p>
         </header>
 
         <!-- Grid -->
-        <div class="w3-row">
+        <div class="w3-cell">
 
             <!-- Blog entries -->
-            <div class="w3-col l8 s12">
+            <div class="w3-col">
                 <!--------------------------------------------------------------------------------------------->
                 <!--------------------------------------------------------------------------------------------->
                 <!-------------------------------------Ayyyy!-------------------------------------------------->
@@ -68,14 +72,14 @@ and is wrapped around the whole page content, except for the footer on this webs
                         <p>So I'm currently in a time where I didn't think I'd be for maybe years from now, when I would become financially stable, have a home and a beautiful family. See, God works in mysterious ways, no doubt. And you really never know the final outcome of something or why it is happening.</p>
                         <p>My father has been battling cancer for over a year now. First there was a tumor in his brain. After chemo and...
 
-                        <div class="w3-row">
-                            <div class="w3-col m8 s12">
-                                <p><button class="w3-button w3-padding-small w3-white w3-border w3-animate-zoom"><a href="/archives/20170805"><b>READ MORE »</b></a></button></p>
-                            </div>
-                            <div class="w3-col m4 w3-hide-small">
+                            <div class="w3-row">
+                                <div class="w3-col m8 s12">
+                                    <p><button class="w3-button w3-padding-small w3-white w3-border w3-animate-zoom"><a href="/archives/20170805"><b>READ MORE »</b></a></button></p>
+                                </div>
+                                <div class="w3-col m4 w3-hide-small">
 
+                                </div>
                             </div>
-                        </div>
                     </div>
                 </div>
 
@@ -202,68 +206,67 @@ and is wrapped around the whole page content, except for the footer on this webs
 
 
                 <!-- END BLOG ENTRIES -->
+                <!-- END GRID -->
+            </div><br>
+        </div>
+<!-- Introduction menu -->
+        <div class=  "w3-cell">
+            <!-- About Card -->
+            <div class="w3-card-2 w3-margin w3-margin-top">
+                <div class="w3-container w3-white w3-transparent w3-round-large w3-opacity-min">
+                    <h4><b>Elvin J. Galarza</b></h4>
+                    <p>Hola and welcome to my personal blog! Here is where I unravel my thoughts, aspirations, and memes all into one big, somewhat organized piece of scrap on le internet. Each day I have something different to say. And each day I speak not to impress or entertain but to de-stress in a healthy way, sitting 1.5 feet away from a big screen. Aside from the risks of impaired vision and carpal tunnel, I tend to have spontaneous thinking... so approach this blog with care, don't facecheck, ss, and keep all finger(s) on your scrolling device as you journey through the archives of my mind. Enjoy!</p>
+
+                </div>
+            </div>
+            <hr>
+
+            <!-- Posts -->
+            <div class="w3-card-2 w3-margin w3-round-large">
+                <div class="w3-container w3-padding  w3-white w3-opacity-min">
+                    <h4>Day Wiki</h4>
+                    <p>Warning: There may be a hiatus in postings, but each day has a specification and it will be followed to the best of my ability!</p>
+                </div>
+                <ul class="w3-ul w3-hoverable w3-white">
+                    <li class="w3-padding-16">
+                        <span class="w3-large">Movie/Music Monday</span><br>
+                        <span>Who needs Rotten Tomatoes or Rap Genius when you have me? Do you even drift, bro? Keep calm and read on. Top to the kek.</span>
+                    </li>
+                    <li class="w3-padding-16">
+                        <span class="w3-large">Two for Tuesday</span><br>
+                        <span>Kinda' like present day radio stations, instead of two consecutively played songs from the same band, I will be doing two random topics. Said topics are decided whenever they feel like knocking on the door of my mind. I will offer them music, mead, and gossip. And in return they will be provided with lodging. ** little do they know they will be here for eternity **</span>
+                    </li>
+                    <li class="w3-padding-16">
+                        <span class="w3-large">Word-Up Wednesday</span><br>
+                        <span>Every day that I live I have respect for those that deserve it; however, on Wednesday is when I will pay written homage to those aforementioned. Selected people can range from personal to celebrity on the social spectrum because everyone has a chance at respect. No doubt, b.</span>
+                    </li>
+                    <li class="w3-padding-16">
+                        <span class="w3-large">Thirsty Thursday</span><br>
+                        <span>If you're looking for cheap alcohol, BAC 404. Because I actually <i>seriously</i> abstain from alcohol, Thirsty Thursdays serves as a day to briefly enjoy (in)formally talking about what I physically, emotionally, mentally, or spiritually (a.k.a. PEMS in the Elvin dictionary{}) thirst for. </span>
+                    </li>
+                    <li class="w3-padding-16">
+                        <span class="w3-large">Feature Friday</span><br>
+                        <span>This site is about me, and if you know anything about me it's that I enjoy hyping people up and learning about what their aspirations, goals, and accomplishments are. This day serves as a day of exposing people from all walks of life, in hopes of giving said person another file for internet users to search for.</span>
+                    </li>
+                    <li class="w3-padding-16">
+                        <span class="w3-large">Snuffed Saturday</span><br>
+                        <span>What better way than to nearly end my week with negative situations that I find myself in? Let's hope and pray that I have less Saturdays on this blog than I do of any other day. Here is where I will talk about my problems and how I am trying to fix them. I find that writing out my problems aids in the efforts to solve them.</span>
+                    </li>
+                    <li class="w3-padding-16 w3-round-large">
+                        <span class="w3-large">Super e/Sports Sunday</span><br>
+                        <span>Interested in hearing your not-so-typical... or maybe really-so-typical Knicks fan qq? Perhaps you wish to read another unprofessional karma-seeking opinion on the internet? Or maybe you're a weary traveler who wants me to trim their armor? No! I assume you're the casual gamer that is interested in seeing my wares?  Well I have the package if you have the time! Sports and eSports included!  Hurry while my server-money lasts and remember that the moderator will never ask for your password!</span>
+                    </li>
+                </ul>
             </div>
 
-            <!-- Introduction menu -->
-            <div class="w3-col l4">
-                <!-- About Card -->
-                <div class="w3-card-2 w3-margin w3-margin-top">
-                    <div class="w3-container w3-white w3-transparent w3-round-large w3-opacity-min">
-                        <h4><b>Elvin J. Galarza</b></h4>
-                        <p>Hola and welcome to my personal blog! Here is where I unravel my thoughts, aspirations, and memes all into one big, somewhat organized piece of scrap on le internet. Each day I have something different to say. And each day I speak not to impress or entertain but to de-stress in a healthy way, sitting 1.5 feet away from a big screen. Aside from the risks of impaired vision and carpal tunnel, I tend to have spontaneous thinking... so approach this blog with care, don't facecheck, ss, and keep all finger(s) on your scrolling device as you journey through the archives of my mind. Enjoy!</p>
 
-                    </div>
-                </div>
-                <hr>
+            <!-- END Introduction Menu -->
+        </div>
 
-                <!-- Posts -->
-                <div class="w3-card-2 w3-margin w3-round-large">
-                    <div class="w3-container w3-padding  w3-white w3-opacity-min">
-                        <h4>Day Wiki</h4>
-                        <p>Warning: There may be a hiatus in postings, but each day has a specification and it will be followed to the best of my ability!</p>
-                    </div>
-                    <ul class="w3-ul w3-hoverable w3-white">
-                        <li class="w3-padding-16">
-                            <span class="w3-large">Movie/Music Monday</span><br>
-                            <span>Who needs Rotten Tomatoes or Rap Genius when you have me? Do you even drift, bro? Keep calm and read on. Top to the kek.</span>
-                        </li>
-                        <li class="w3-padding-16">
-                            <span class="w3-large">Two for Tuesday</span><br>
-                            <span>Kinda' like present day radio stations, instead of two consecutively played songs from the same band, I will be doing two random topics. Said topics are decided whenever they feel like knocking on the door of my mind. I will offer them music, mead, and gossip. And in return they will be provided with lodging. ** little do they know they will be here for eternity **</span>
-                        </li>
-                        <li class="w3-padding-16">
-                            <span class="w3-large">Word-Up Wednesday</span><br>
-                            <span>Every day that I live I have respect for those that deserve it; however, on Wednesday is when I will pay written homage to those aforementioned. Selected people can range from personal to celebrity on the social spectrum because everyone has a chance at respect. No doubt, b.</span>
-                        </li>
-                        <li class="w3-padding-16">
-                            <span class="w3-large">Thirsty Thursday</span><br>
-                            <span>If you're looking for cheap alcohol, BAC 404. Because I actually <i>seriously</i> abstain from alcohol, Thirsty Thursdays serves as a day to briefly enjoy (in)formally talking about what I physically, emotionally, mentally, or spiritually (a.k.a. PEMS in the Elvin dictionary{}) thirst for. </span>
-                        </li>
-                        <li class="w3-padding-16">
-                            <span class="w3-large">Feature Friday</span><br>
-                            <span>This site is about me, and if you know anything about me it's that I enjoy hyping people up and learning about what their aspirations, goals, and accomplishments are. This day serves as a day of exposing people from all walks of life, in hopes of giving said person another file for internet users to search for.</span>
-                        </li>
-                        <li class="w3-padding-16">
-                            <span class="w3-large">Snuffed Saturday</span><br>
-                            <span>What better way than to nearly end my week with negative situations that I find myself in? Let's hope and pray that I have less Saturdays on this blog than I do of any other day. Here is where I will talk about my problems and how I am trying to fix them. I find that writing out my problems aids in the efforts to solve them.</span>
-                        </li>
-                        <li class="w3-padding-16 w3-round-large">
-                            <span class="w3-large">Super e/Sports Sunday</span><br>
-                            <span>Interested in hearing your not-so-typical... or maybe really-so-typical Knicks fan qq? Perhaps you wish to read another unprofessional karma-seeking opinion on the internet? Or maybe you're a weary traveler who wants me to trim their armor? No! I assume you're the casual gamer that is interested in seeing my wares?  Well I have the package if you have the time! Sports and eSports included!  Hurry while my server-money lasts and remember that the moderator will never ask for your password!</span>
-                        </li>
-                    </ul>
-                </div>
-
-
-                <!-- END Introduction Menu -->
-            </div>
-
-            <!-- END GRID -->
-        </div><br>
 
         <!-- END w3-content -->
     </div>
-<a href="#top">Go back to top</a>
+    <a href="#top">Go back to top</a>
     <!-- Footer -->
     <footer class="w3-container w3-padding-32 w3-margin-top">
     </footer>
